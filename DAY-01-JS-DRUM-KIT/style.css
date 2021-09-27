@@ -1,0 +1,54 @@
+html {
+  background: url("./drumset.jpeg") bottom center;
+  font-size: large;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: aliceblue;
+  background-size: cover;
+}
+
+body,
+html {
+  margin: 0%;
+  padding: 0%;
+}
+
+.keys {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  min-height: 100vh;
+  max-width: 90vw;
+}
+
+.key {
+  text-align: center;
+  border: 0.2rem solid white;
+  border-radius: 0.5rem;
+  margin: 1rem;
+  padding: 0.5rem;
+  font-size: 18px;
+  width: 10rem;
+  background: rgba(0, 0, 0, 0.5);
+  text-shadow: 0, 0 .5rem black;
+}
+
+kbd {
+  display: block;
+  font-size: 4rem;
+}
+
+/* .key {
+    border: .4rem solid black;
+    border-radius: .5rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+    padding: 1rem .5rem;
+    transition: all .07s ease;
+    width: 10rem;
+    text-align: center;
+    color: white;
+    background: rgba(0,0,0,0.4);
+    text-shadow: 0 0 .5rem black;
+  } */
