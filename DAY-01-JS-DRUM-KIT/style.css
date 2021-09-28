@@ -32,11 +32,18 @@ html {
   width: 10rem;
   background: rgba(0, 0, 0, 0.5);
   text-shadow: 0, 0 .5rem black;
+  transition: all 50ms;
 }
 
 kbd {
   display: block;
   font-size: 4rem;
+}
+
+.playing {
+  transform: scale(1.2);
+  border-color: grey;
+  box-shadow: 0 0 10px lightgray;
 }
 
 /* .key {
