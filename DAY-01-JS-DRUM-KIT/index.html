@@ -69,13 +69,13 @@
         key.classList.add("playing");
         audio.currentTime = 0;
         audio.play();
-        function removeTransition(event) {
-          this.classList.remove("playing");
-        }
-        const allKeys = document.querySelectorAll(".key");
-        allKeys.forEach((key) => {
-          key.addEventListener("transitionend", removeTransition);
-        });
+      });
+      function removeTransition(event) {
+        this.classList.remove("playing");
+      }
+      const allKeys = document.querySelectorAll(".key");
+      allKeys.forEach((key) => {
+        key.addEventListener("transitionend", removeTransition);
       });
     </script>
   </body>
